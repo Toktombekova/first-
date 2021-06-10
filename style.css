@@ -1,0 +1,45 @@
+*{
+    font-family: Roboto;
+}
+.traveler{
+      background: #00A66A;
+}
+.traveler .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 19px 0 19px 0;
+}
+.nav .list-travel ul{
+    display: flex;
+}
+.nav .list-travel li{
+    list-style: none;
+    padding-right: 50px;
+}
+.nav .language span{
+    color: lightgray;
+}
+.content-view .background img{
+    position: relative;
+    
+}
+.content-view .firs-png img{
+    margin-top: -580px;
+    left:450px;
+    z-index: 1;
+    position: absolute;
+}
+.content-view .second-png img{
+    margin-top: -495px;
+    left:521px;
+    z-index: 1;
+    position: absolute;
+}
+.content-view .third-png img{
+    margin-top: -430px;
+    left:558px;
+    z-index: 1;
+    position: absolute;
+}
